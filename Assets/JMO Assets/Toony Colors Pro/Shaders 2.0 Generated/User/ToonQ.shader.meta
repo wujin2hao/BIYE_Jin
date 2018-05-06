@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 7c709f74def2591428539592c83a0811
+timeCreated: 1516533007
+licenseType: Pro
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  userData: USER,FSHADOWMASK,FTEXTURE_RAMP,FREFLECTION,FREFL_MASK,FREFL_ROUGH,FRIM_REFL,FRIM,FMASK_MAINTEX,fnoforwardadd,KSHADER_TARGET:3.0,KREFL_MASK:mainTex,KREFL_MASK_CHANNEL:.a,chB2EC456D,cSM:30,cCF:TCP2_ShaderTemplate_Default
+  assetBundleName: 
+  assetBundleVariant: 
