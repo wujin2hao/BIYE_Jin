@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BIYE_Jin", "BIYE_Jin.csproj", "{93E120CB-1969-1432-D185-8B68342B7804}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BIYE_Jin.Editor", "BIYE_Jin.Editor.csproj", "{19A179C9-D889-A895-08A7-38C2170D6373}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93E120CB-1969-1432-D185-8B68342B7804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93E120CB-1969-1432-D185-8B68342B7804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93E120CB-1969-1432-D185-8B68342B7804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93E120CB-1969-1432-D185-8B68342B7804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19A179C9-D889-A895-08A7-38C2170D6373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19A179C9-D889-A895-08A7-38C2170D6373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19A179C9-D889-A895-08A7-38C2170D6373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19A179C9-D889-A895-08A7-38C2170D6373}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
