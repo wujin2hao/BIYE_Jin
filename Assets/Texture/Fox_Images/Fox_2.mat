@@ -67,7 +67,7 @@ Material:
     - _EnableTexturedOutline: 0
     - _EnableZSmooth: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0.5
+    - _Glossiness: 0.4
     - _GlossyReflections: 1
     - _HSV_S: 0.8
     - _Metallic: 0

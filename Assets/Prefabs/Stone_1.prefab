@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33388606975053160}
   - component: {fileID: 23411386063156634}
   - component: {fileID: 95994679360915382}
+  - component: {fileID: 65855653131452184}
   m_Layer: 0
   m_Name: Stone_1
   m_TagString: Untagged
@@ -35,13 +36,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1807147258968328}
-  m_LocalRotation: {x: -0, y: -0.7741955, z: -0, w: 0.63294667}
-  m_LocalPosition: {x: 5.45, y: -1.45, z: 1.73}
-  m_LocalScale: {x: 0.6793874, y: 0.6793873, z: 0.6793873}
+  m_LocalRotation: {x: -0.01334662, y: -0.9058558, z: 0.42240742, w: 0.028621929}
+  m_LocalPosition: {x: -0.62248254, y: 1.2518313, z: 7.316367}
+  m_LocalScale: {x: 0.6793872, y: 0.67938733, z: 0.67938715}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -101.464005, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -206.37999, z: 0}
 --- !u!23 &23411386063156634
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -51,7 +52,6 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -67,7 +67,6 @@ MeshRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -83,6 +82,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1807147258968328}
   m_Mesh: {fileID: 4300000, guid: 38718918b127bbe45b3cb8b613ec0f2f, type: 3}
+--- !u!65 &65855653131452184
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1807147258968328}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.4908864, y: 1.8915496, z: 3.6685212}
+  m_Center: {x: 0.00000023490487, y: 0.9453278, z: -0.08013348}
 --- !u!95 &95994679360915382
 Animator:
   serializedVersion: 3

@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33732123114826512}
   - component: {fileID: 23671515560602540}
   - component: {fileID: 95333854257613174}
+  - component: {fileID: 65530396266876300}
   m_Layer: 0
   m_Name: Flower_2
   m_TagString: Untagged
@@ -35,13 +36,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1418406956389236}
-  m_LocalRotation: {x: 0.0002399963, y: 0.9982191, z: -0.00029816505, w: 0.05965365}
-  m_LocalPosition: {x: 0.473, y: -1.4996544, z: 3.2}
+  m_LocalRotation: {x: 0.0000030047545, y: 0.81953955, z: -0.00038274258, w: -0.5730226}
+  m_LocalPosition: {x: 4.47, y: -1.91, z: 9.98}
   m_LocalScale: {x: 0.6450804, y: 0.6450804, z: 0.6450804}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0.036000002, y: 173.16, z: 0.025}
+  m_LocalEulerAnglesHint: {x: 0.036000002, y: 249.923, z: 0.025}
 --- !u!23 &23671515560602540
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -51,7 +52,6 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -67,7 +67,6 @@ MeshRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -83,6 +82,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1418406956389236}
   m_Mesh: {fileID: 4300000, guid: 95c723916d091954fbb95b7a9fbb121a, type: 3}
+--- !u!65 &65530396266876300
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1418406956389236}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.21823, y: 5.5369797, z: 2.952796}
+  m_Center: {x: -0.2556133, y: 2.7684898, z: 0.6756167}
 --- !u!95 &95333854257613174
 Animator:
   serializedVersion: 3
